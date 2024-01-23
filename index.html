@@ -1,11 +1,413 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="corporate">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's Website</title>
+    <link rel="shortcut icon" href="images/hocky-logo.png" type="image/x-icon">
+    <!-- favicon link below -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisi UI cdn link  -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .manrope{
+            font-family: 'Manrope';
+        }
+    </style>
 </head>
 <body>
-    <h1>hello world</h1>
+    <header class="bg-white">
+        <nav class="flex justify-evenly items-center mt-10 mb-16">
+            <h1 class="text-[#131313] manrope text-4xl font-extrabold">Hockey<span class="text-[#FF4240] manrope text-4xl font-extrabold">'</span>s</h1>
+            <ul class="flex text-[#424247] text-center manrope text-base font-normal gap-10">
+                <li class="text-[#FF4240] "><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="flex items-center gap-3">
+                <img class="w-8 h-7" src="images/search-icon.png" alt="#">
+                <button class="text-white text-center manrope text-xl font-bold py-4 px-6 bg-[#FF4240] rounded-lg">Get Ticket</button>
+            </div>
+        </nav>
+                <!-- carousel by daisyui  -->
+            <div class="carousel w-full">
+                <div id="slide3" class="carousel-item relative w-full">
+                <img src="images/1.png" class="w-4/5 h-4/5 ml-[141px]"/>
+                <div class="absolute left-[597px] mt-[350px] p-8 bg-[#131318] rounded-2xl">
+                    <h4 class="text-white manrope text-2xl font-extrabold">Meet all the heroes from the field</h4>
+                    <p class="pt-4 text-[#FFFFFF99] manrope text-base font-medium">"Meet all the heroes from this field” is a tribute to legendary hockey players with <br> biographical information, career highlights, and achievements.</p>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle ml-40">❮</a> 
+                    <a href="#slide4" class="btn btn-circle mr-40 mb-9">❯</a>
+                </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                <img src="images/2.png" class="w-4/5 h-4/5 ml-[141px]" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle ml-40">❮</a> 
+                    <a href="#slide1" class="btn btn-circle mr-40">❯</a>
+                </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833" >
+        <h3 class="text-[#131318] text-center manrope text-4xl font-extrabold mt-8">Professional Hockeys Club</h3>
+        <p class="text-[#13131899] text-center manrope text-base font-medium mt-6 mb-8">“Professional hockey club” refers to a team of skilled players <br> who compete in organized leagues.</p>
+        <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+        <div class="flex mt-12  justify-center gap-16 mb-24">
+            <div class="grid items-center">
+                <img class="relative left-10" src="images/group87.png" alt="#" style="pointer-events: none;"> <span class="relative bottom-[74px] left-[74px] text-[#131318] manrope text-2xl font-extrabold" style="user-select: none;">87%</span>
+                <h3 class="text-[#131318] text-center manrope text-[20px] font-semibold">Player Facility</h3>
+                <p class="text-[#13131899] text-center manrope text-base font-normal pt-4">The importance of facilities in <br> player production.</p>
+            </div>
+            <div class="grid items-center">
+                <img class="relative left-10" src="images/group95.png" alt="#" style="pointer-events: none;"> <span class="relative bottom-[74px] left-[74px] text-[#131318] manrope text-2xl font-extrabold" style="user-select: none;">95%</span>
+                <h3 class="text-[#131318] text-center manrope text-[20px] font-semibold">Player Facility</h3>
+                <p class="text-[#13131899] text-center manrope text-base font-normal pt-4">The importance of facilities in <br> player production.</p>
+            </div>
+            <div class="grid items-center">
+                <img class="relative left-10" src="images/group90.png" alt="#" style="pointer-events: none;"> <span class="relative bottom-[74px] left-[74px] text-[#131318] manrope text-2xl font-extrabold" style="user-select: none;">90%</span>
+                <h3 class="text-[#131318] text-center manrope text-[20px] font-semibold">Player Facility</h3>
+                <p class="text-[#13131899] text-center manrope text-base font-normal pt-4">The importance of facilities in <br> player production.</p>
+            </div>
+            <div class="grid items-center">
+                <img class="relative left-10" src="images/group80.png" alt="#" style="pointer-events: none;"> <span class="relative bottom-[74px] left-[74px] text-[#131318] manrope text-2xl font-extrabold" style="user-select: none;">80%</span>
+                <h3 class="text-[#131318] text-center manrope text-[20px] font-semibold">Player Facility</h3>
+                <p class="text-[#13131899] text-center manrope text-base font-normal pt-4">The importance of facilities in <br> player production.</p>
+            </div>
+        </div>
+        <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+        <!-- programs section start  -->
+        <h2 class="text-[#131318] text-center manrope text-4xl font-extrabold mt-8">Program Sections</h2>
+        <p class="text-[#13131899] text-center manrope text-base font-normal pt-6 pb-8">
+            "Dive into our hockey program section for team insights, player profiles, match analysis, <br> and exclusive behind-the-scenes content</p>
+            <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+            <div class="flex justify-center mt-12 mb-6 gap-6">
+                <div class="bg-no-repeat" style="background-image: url('./images/2.png');">
+                    <h3 class="text-white manrope text-2xl font-extrabold pt-24 pl-10">Junior Program</h3>
+                    <p class="text-white manrope text-base font-medium pl-10 pt-4 pb-6 pr-9">Discover our Junior Program on the hockey website, designed for <br> young talents. Unlock skill development, mentorship, and exciting , <br> young talents. </p>
+                    <button class="text-white text-center manrope text-xl font-bold px-6 bg-[#FF4240] py-2.5 rounded-lg ml-10 mb-12">Register Now!</button>
+                </div>
+                <div class="bg-no-repeat" style="background-image: url('./images/3.png');">
+                    <h3 class="text-white manrope text-2xl font-extrabold pt-24 pl-10">Teenager Program</h3>
+                    <p class="text-white text-left manrope text-base font-medium pl-10 pt-4 pb-6 pr-9">Discover our Junior Program on the hockey website, designed for <br> young talents. Unlock skill development, mentorship, and exciting , <br> young talents. </p>
+                    <button class="text-white text-center manrope text-xl font-bold px-6 bg-[#FF4240] py-2.5 rounded-lg ml-10 mb-12">Register Now!</button>
+                </div>
+            </div>
+            <div class="bg-no-repeat ml-32 mb-24" style="background-image: url('./images/4.png');">
+                <h3 class="text-white manrope text-2xl font-extrabold pt-52 pl-10">Professional Program</h3>
+                <p class="text-white text-left manrope text-base font-medium pl-10 pt-4 pb-6 pr-9">
+                    Explore our professional program on our hockey website, designed to elevate your <br> game. Gain exclusive access to elite training, expert coaching, and <br> personalized resources for a competitive edge.
+                    </p>
+                    <button class="text-white text-center manrope text-xl font-bold px-6 bg-[#FF4240] py-2.5 rounded-lg ml-10 mb-12">Register Now!</button>
+            </div> 
+            <!-- program section end  -->
+            <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+            <!-- our new product section start  -->
+            <h2 class="text-[#131318] text-center manrope text-4xl font-extrabold mt-8">Our New Products</h2>
+            <p class="text-[#13131899] text-center manrope text-base font-medium pl-10 pt-4 pb-8 pr-9">Discover the game-changing power of our new hockey products, engineered for <br> peak performance and unmatched precision.
+            </p>
+            <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+            <div class="mt-12 mb-24">
+
+            <div class="flex justify-center gap-6 mb-6">
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/5.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/6.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-6 mb-6">
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/7.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/8.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-6 mb-6 ">
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/9.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex p-6 border rounded-2xl">
+                    <img class="rounded-xl mr-5" src="images/10.png" alt="#">
+                    <div>
+                        <div class="flex text-[#0D0D1280] manrope text-base font-medium gap-2">
+                            <img src="images/star.png" alt="#"><span>5.0</span>
+                            <img src="images/view.png" alt="#"><span>20</span>
+                            <img src="images/heart.png" alt="#"><span>200</span>
+                        </div>
+                        <h3 class="text-[#131318] manrope text-xl font-extrabold pt-3">World Cup Flags Football</h3>
+                        <p class="text-[#0D0D1280] manrope text-base font-medium pt-3">Elevate your game with World Cup Flags Football <br> Unleash excitement!</p>
+                        <div class="flex">
+                            <h4 class="text-[#FF4240] manrope text-xl font-extrabold pt-4">Price - $22.00</h4> <img class="w-6 h-6 ml-6 mr-1 mt-4" src="images/cart.png" alt="#"><span class="text-[#0D0D1280] manrope text-lg font-medium pt-[14px]">Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+            <!-- client question with accordion start  -->
+            <h2 class="text-[#131318] text-center manrope text-4xl font-extrabold mt-8">Client Question</h2>
+            <p class="text-[#13131899] text-center manrope text-base font-medium pl-10 pt-4 pb-8 pr-9">Hockey enthusiasts can ask queries about teams, players, and games, <br> receiving expert insights and answers.</p>
+            <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+                <div class="flex justify-center p-8 border rounded-2xl ml-32 mr-32 mt-12 gap-10 mb-24">
+                    <img class="h-[430px]" src="images/11.png" alt="#">
+
+                    <div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" checked="checked" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Our Equipment
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Explore top-notch hockey gear – sticks, skates, and protective equipment <br> for optimal performance on the ice</p>
+                            </div>
+                            <hr class="ml-5 mr-5" style="border-top: 1px solid #13131833">
+                        </div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Hockey Training
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Elevate your game with cutting-edge hockey training programs, drills, and  <br>tips for skill enhancement and success</p>
+                            </div>
+                            <hr class="ml-5 mr-5" style="border-top: 1px solid #13131833">
+                        </div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Private Lessions
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Personalized coaching tailored to your skill level—unlock your potential with <br> private hockey lessons for unparalleled improvement</p>
+                            </div>
+                            <hr class="ml-5 mr-5" style="border-top: 1px solid #13131833">
+                        </div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Ski Touring
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Embark on thrilling ski touring adventures, blending hockey passion with <br> the excitement of exploring winter landscapes</p>
+                            </div>
+                            <hr class="ml-5 mr-5" style="border-top: 1px solid #13131833">
+                        </div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Booking
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Secure your spot on the ice effortlessly with our convenient and <br> efficient online hockey booking system</p>
+                            </div>
+                            <hr class="ml-5 mr-5" style="border-top: 1px solid #13131833">
+                        </div>
+                        <div class="collapse collapse-plus bg-white">
+                            <input type="radio" name="my-accordion-3" /> 
+                            <div class="collapse-title text-xl font-medium">
+                            Pricings
+                            </div>
+                            <div class="collapse-content"> 
+                            <p>Transparent and competitive pricing for hockey enthusiasts, offering value-packed options for gear, training, and experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+                <!-- get in touch section start  -->
+                <h2 class="text-[#131318] text-center manrope text-4xl font-extrabold mt-8">Get In Touch</h2>
+                <p class="text-[#13131899] text-center manrope text-base font-medium pl-10 pt-4 pb-8 pr-9">Connect with us easily. Questions, partnerships, or just to chat—reach  <br> out for a personalized hockey experience.</p>
+                <hr class="ml-36 mr-36" style="border-top: 1px dashed #13131833">
+
+                <div class="flex justify-center mt-12 mb-12 gap-6">
+
+                    <div class="px-12 pt-12 pb-7 border rounded-2xl">
+                        <div class="px-8 py-8 bg-[#BCED6D1A] rounded-2xl mb-6">
+                            <img src="images/call.png" alt="#">
+                            <h5 class="pt-6 text-[#0D0D1242] manrope text-base font-normal">Phone Number:</h5>
+                            <h6 class="text-[#131318] manrope text-lg font-extrabold">(+62) 123-321-543</h6>
+                        </div>
+                        <div class="px-8 py-8 bg-[#FDDD5F1A] rounded-2xl mb-6">
+                            <img src="images/email.png" alt="#">
+                            <h5 class="pt-6 text-[#0D0D1242] manrope text-base font-normal">Email:</h5>
+                            <h6 class="text-[#131318] manrope text-lg font-extrabold">hockeys@support.com</h6>
+                        </div>
+                        <div class="px-8 py-8 bg-[#629CF31A] rounded-2xl mb-6">
+                            <img src="images/map.png" alt="#">
+                            <h5 class="pt-6 text-[#0D0D1242] manrope text-base font-normal">Location:</h5>
+                            <h6 class="text-[#131318] manrope text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h6>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="flex gap-6 mb-6">
+                        <div>
+                            <label class="text-[#131318] manrope text-xl font-bold" for="">Your Name</label> <br>
+                            <input class=" placeholder:text-[#0D0D124D] manrope text-base font-normal py-5 pl-5 pr-28 rounded-xl bg-[#0D0D1205] mt-4" type="text" placeholder="Enter your full name"> <br>
+                        </div>
+                        <div>
+                            <label class="text-[#131318] manrope text-xl font-bold" for="">Your Email</label> <br>
+                            <input class=" placeholder:text-[#0D0D124D] manrope text-base font-normal py-5 pl-5 pr-28 rounded-xl bg-[#0D0D1205] mt-4" type="email" placeholder="Enter your email"> 
+                        </div>
+                        </div>
+
+                        <div class="flex gap-6 mb-6">
+                            <div>
+                                <label class="text-[#131318] manrope text-xl font-bold" for="">Subject</label> <br>
+                                <input class=" placeholder:text-[#0D0D124D] manrope text-base font-normal py-5 pl-5 pr-28 rounded-xl bg-[#0D0D1205] mt-4" type="text" placeholder="Enter your subject"> 
+                            </div>
+                            <div>
+                                <label class="text-[#131318] manrope text-xl font-bold" for="">Phone Number</label> <br>
+                                <input class=" placeholder:text-[#0D0D124D] manrope text-base font-normal py-5 pl-5 pr-28 rounded-xl bg-[#0D0D1205]  mt-4" type="number" placeholder="Enter your phone number"> 
+                            </div>
+                        </div>
+                        <label class="text-[#131318] manrope text-xl font-bold" for="#">Message</label> <br>
+                        <textarea class="bg-[#0D0D1205] py-5 pl-5 mt-4 rounded-xl mb-8" name="" id="" cols="84" rows="11" placeholder="Write your message"></textarea> 
+                        <br>
+                        <button class="text-white text-center manrope text-xl font-bold py-4 px-[258px] rounded-xl bg-[#FF4240]">Send Message</button>
+                    </div>
+                </div>
+
+                <!-- social media section here  -->
+                <div class="bg-[#0D0D1205] ml-[160px] mr-[160px] rounded-xl mb-24">
+                    <h3 class="pt-9 pb-6 text-[#131318] text-center manrope text-2xl font-extrabold">Social Media</h3>
+                    <img class="pb-8 ml-[470px]" src="images/social.png" alt="#">
+                </div>
+    </main>
+
+    <footer class="bg-[#131318] flex justify-evenly">
+        <div class="pt-24 pb-32">
+            <h3 class="text-white manrope text-2xl font-extrabold">Get In Touch</h3>
+            <p class="text-[#FFFFFF99] manrope text-base font-medium pt-4">Connect with us easily. Questions, <br> partnerships, or just to chat—reach
+                out for a <br> personalized hockey experience.</p>
+            <div class="flex">
+                <img class="mr-4 pt-6" src="images/mail-icon.png" alt="#"><span class="pt-6 text-[#FFFFFFCC]">hockeys@support.com</span>
+            </div>
+            <div class="flex">
+                <img class="mr-4 pt-4" src="images/call-icon.png" alt="#"><span class="pt-4 text-[#FFFFFFCC]">(+62) 123-321-543</span>
+            </div>
+        </div>
+
+        <div class="pt-24">
+            <h4 class="text-white manrope text-lg font-bold pb-7">Company</h4>
+            <ul class="text-[#FFFFFF99] manrope text-base font-medium">
+                <li class="pb-2"><a href="#">About us</a></li>
+                <li class="pb-2"><a href="#">Leadership</a></li>
+                <li class="pb-2"><a href="#">Careers</a></li>
+                <li class="pb-2"><a href="#">News & Article</a></li>
+                <li class="pb-2"><a href="#">Legal Notice</a></li>
+            </ul>
+        </div>
+
+        <div class="pt-24">
+            <h4 class="text-white manrope text-lg font-bold pb-7">Support</h4>
+            <ul class="text-[#FFFFFF99] manrope text-base font-medium">
+                <li class="pb-2"><a href="#">Help Center</a></li>
+                <li class="pb-2"><a href="#">FAQ</a></li>
+                <li class="pb-2"><a href="#">Ticket Support</a></li>
+                <li class="pb-2"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="pt-24">
+            <h4 class="text-white manrope text-lg font-bold pb-7">Services</h4>
+            <ul class="text-[#FFFFFF99] manrope text-base font-medium">
+                <li class="pb-2"><a href="#">Academy</a></li>
+                <li class="pb-2"><a href="#">Group Lession</a></li>
+                <li class="pb-2"><a href="#">Private Lession</a></li>
+                <li class="pb-2"><a href="#">Hockeys for kids</a></li>
+                <li class="pb-2"><a href="#">Hockeys for Adult</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
